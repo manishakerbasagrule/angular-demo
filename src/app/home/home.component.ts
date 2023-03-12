@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export gitclass HomeComponent implements OnInit {
 
+  constructor() { }
+
+  ngOnInit(): void{
+
+  }
 }
